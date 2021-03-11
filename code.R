@@ -41,3 +41,5 @@ m <- leaflet(panama %>% filter(pareja_aux == i)) %>% addProviderTiles(provider =
                   labels=c("no matriculado","matriculad C","matriculad C"),
                   opacity = 1,title="FILL")
 m
+
+#agrego comentario extra
